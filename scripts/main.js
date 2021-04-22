@@ -1,2 +1,7 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+const timerText = document.getElementById("timer-text");
+
+let count = 0;
+	setInterval(function (){
+	count +=1;
+    timerText.textContent = count;
+}, 1000)
