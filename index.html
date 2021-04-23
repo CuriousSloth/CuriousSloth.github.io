@@ -8,11 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Running Timer -->
     <div class="panel">
         <h1>Welcome to the Sloth Page</h1>
         <h2>You have been here this many seconds:</h2>
         <p id="timer-text">0</p>
+    
+    </div>
+    <!-- Calculator Panel -->
+    <div class="panel">
+        <h2>Here is a simple addition calculator:</h2>
+
+        <form id="form">
+            <input type="text" name="" id="value1">
+            <span>+</span>
+            <input type="text" name="" id="value2">
+            <span id="sumText"></span>
+            <input type="submit" value="Submit" id="button">
+            <span></span>
+        </form>
+        <p id="output-text">Output Placeholder</p>
+    </div>
+    <!-- JavaScript executes below -->
     <script src="scripts/main.js"></script>
-    </div> 
 </body>
 </html>
